@@ -47,8 +47,29 @@ function ContactPage() {
   });
 
   const onSubmit = (values: FormValues) => {
-    toast.success("Inquiry received", {
-      description: `Thank you, ${values.name.split(" ")[0]}. A partner will respond within one business day.`,
+    const lines = [
+      `*New Inquiry — Legal Eyes*`,
+      ``,
+      `*Name:* ${values.name}`,
+      `*Email:* ${values.email}`,
+      `*Phone:* ${values.phone}`,
+      `*Case Type:* ${values.caseType}`,
+      ``,
+      `*Matter:*`,
+      values.message,
+    ];
+    const text = encodeURIComponent(lines.join("\n"));
+    const waNumber = site.contact.whatsapp || "919696077876";
+    const url = `https://wa.me/${waNumber}?text=${text}`;
+
+    const win = window.open(url, "_blank", "noopener,noreferrer");
+    if (!win) {
+      // Popup blocked — fallback to a minimal "Hi" link via direct navigation
+      window.location.href = `https://wa.me/${waNumber}?text=${encodeURIComponent("Hi")}`;
+    }
+
+    toast.success("Opening WhatsApp", {
+      description: `Thank you, ${values.name.split(" ")[0]}. Your inquiry is ready to send on WhatsApp.`,
     });
     form.reset();
   };
