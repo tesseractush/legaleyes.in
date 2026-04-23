@@ -41,9 +41,16 @@ export function Footer() {
           </div>
 
           <div className="md:col-span-2">
-            <h4 className="text-xs uppercase tracking-[0.2em] text-gold mb-5">Office</h4>
+            <h4 className="text-xs uppercase tracking-[0.2em] text-gold mb-5">Chambers</h4>
             <p className="text-sm text-foreground/70 leading-relaxed">{site.contact.address}</p>
-            <p className="mt-3 text-sm text-foreground/70">{site.contact.phone}</p>
+            <a
+              href={`https://wa.me/${site.contact.whatsapp}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-block text-sm text-foreground/70 hover:text-gold"
+            >
+              {site.contact.phone}
+            </a>
           </div>
         </div>
 
