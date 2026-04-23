@@ -1,0 +1,151 @@
+{
+  "branding": {
+    "name": "Legal Eyes",
+    "tagline": "Justice Through Insight",
+    "disclaimer": "The information on this website is for general purposes only and does not constitute legal advice. Prior results do not guarantee a similar outcome."
+  },
+  "nav": [
+    { "label": "Home", "to": "/" },
+    { "label": "About", "to": "/about" },
+    { "label": "Practice", "to": "/practice-areas" },
+    { "label": "Insights", "to": "/insights" },
+    { "label": "Team", "to": "/team" },
+    { "label": "Contact", "to": "/contact" }
+  ],
+  "hero": {
+    "eyebrow": "Established Counsel · Modern Practice",
+    "headline": "Justice Through Insight",
+    "subtext": "Precision-driven legal solutions for modern challenges. We see what others miss — and we act before others react.",
+    "cta_primary": "Book Consultation",
+    "cta_secondary": "Explore Services"
+  },
+  "about": {
+    "eyebrow": "The Firm",
+    "title": "Clarity in a complex world.",
+    "description": "Legal Eyes is a boutique firm built around a single principle: the sharpest counsel comes from the sharpest perspective. We pair rigorous analysis with discreet, deeply human advocacy for founders, executives, and institutions who can't afford to be misread.",
+    "pullQuote": "We don't simply argue cases. We architect outcomes.",
+    "vision": "To redefine legal counsel as an act of clarity — replacing noise with insight, and reaction with strategy.",
+    "founder": {
+      "name": "A. Kohli",
+      "role": "Founding Partner",
+      "note": "Twenty years at the bench taught me one thing: every case is a question of perception. Our work begins where assumptions end."
+    }
+  },
+  "services": [
+    {
+      "title": "Corporate Law",
+      "description": "Mergers, governance, venture financing, and cross-border structuring for ambitious businesses.",
+      "icon": "Briefcase"
+    },
+    {
+      "title": "Litigation",
+      "description": "Strategic dispute resolution and trial advocacy across commercial, civil, and constitutional matters.",
+      "icon": "Scale"
+    },
+    {
+      "title": "Intellectual Property",
+      "description": "Trademark, patent, and copyright protection — from filing to enforcement and licensing.",
+      "icon": "Lightbulb"
+    },
+    {
+      "title": "Compliance & Regulatory",
+      "description": "Risk frameworks, regulatory filings, and audit readiness for regulated industries.",
+      "icon": "ShieldCheck"
+    },
+    {
+      "title": "Legal Advisory",
+      "description": "Ongoing counsel for boards, founders, and family offices navigating high-stakes decisions.",
+      "icon": "Compass"
+    }
+  ],
+  "whyUs": {
+    "title": "Why discerning clients choose us.",
+    "description": "Three decades of combined experience, distilled into a quiet, decisive practice.",
+    "metrics": [
+      { "value": 320, "suffix": "+", "label": "Cases handled" },
+      { "value": 96, "suffix": "%", "label": "Success rate" },
+      { "value": 24, "suffix": "yrs", "label": "Avg. partner experience" },
+      { "value": 14, "suffix": "", "label": "Jurisdictions covered" }
+    ],
+    "pillars": [
+      { "title": "Data-driven strategy", "description": "Every recommendation is backed by precedent analytics and outcome modeling." },
+      { "title": "Senior-led teams", "description": "Partners stay on the file, from intake to verdict." },
+      { "title": "Discreet & ethical", "description": "Confidentiality is the floor, not the ceiling, of how we operate." },
+      { "title": "Global reach", "description": "Trusted correspondents across 14 jurisdictions on four continents." }
+    ]
+  },
+  "insights": {
+    "title": "Insights & Case Notes",
+    "description": "Long-form thinking on law, regulation, and the art of strategic counsel.",
+    "posts": [
+      {
+        "category": "Corporate",
+        "title": "The quiet revolution in cross-border M&A",
+        "excerpt": "Why the next wave of mid-market deals will be won on diligence, not deal size.",
+        "readTime": "7 min read",
+        "date": "Mar 2025"
+      },
+      {
+        "category": "IP",
+        "title": "Trademark in the age of generative design",
+        "excerpt": "When a logo is sketched by an algorithm, who owns the mark — and the goodwill?",
+        "readTime": "5 min read",
+        "date": "Feb 2025"
+      },
+      {
+        "category": "Litigation",
+        "title": "Settlements as strategy, not surrender",
+        "excerpt": "A framework for evaluating when a quiet exit beats a public victory.",
+        "readTime": "9 min read",
+        "date": "Jan 2025"
+      },
+      {
+        "category": "Compliance",
+        "title": "Building a regulator-ready board",
+        "excerpt": "Five board hygiene practices that separate resilient companies from cautionary tales.",
+        "readTime": "6 min read",
+        "date": "Dec 2024"
+      },
+      {
+        "category": "Advisory",
+        "title": "The founder's first ten legal decisions",
+        "excerpt": "What we tell every founder before they raise their first institutional round.",
+        "readTime": "8 min read",
+        "date": "Nov 2024"
+      },
+      {
+        "category": "Regulatory",
+        "title": "Reading the new data residency rules",
+        "excerpt": "A pragmatic guide to compliance without re-architecting your stack.",
+        "readTime": "10 min read",
+        "date": "Oct 2024"
+      }
+    ]
+  },
+  "team": {
+    "title": "Counsel you'll recognize.",
+    "description": "A small bench of senior practitioners — chosen for judgment, not headcount.",
+    "members": [
+      { "name": "Anaya Kohli", "role": "Founding Partner", "expertise": ["Corporate", "M&A"], "initials": "AK" },
+      { "name": "Rohan Mehta", "role": "Partner, Litigation", "expertise": ["Commercial", "Constitutional"], "initials": "RM" },
+      { "name": "Iris Chen", "role": "Partner, IP", "expertise": ["Patents", "Licensing"], "initials": "IC" },
+      { "name": "Marcus Adair", "role": "Senior Counsel", "expertise": ["Compliance", "Regulatory"], "initials": "MA" },
+      { "name": "Selene Vance", "role": "Counsel, Advisory", "expertise": ["Boards", "Family Office"], "initials": "SV" },
+      { "name": "Jonas Park", "role": "Associate", "expertise": ["Cross-border", "Tax"], "initials": "JP" }
+    ]
+  },
+  "contact": {
+    "title": "Begin a conversation.",
+    "description": "Tell us about your matter. A partner will respond within one business day.",
+    "email": "contact@legaleyes.law",
+    "phone": "+1 (212) 555-0144",
+    "address": "48 Liberty Street, 22nd Floor, New York, NY 10005",
+    "hours": "Mon–Fri · 9:00–18:00",
+    "caseTypes": ["Corporate", "Litigation", "Intellectual Property", "Compliance", "Advisory", "Other"]
+  },
+  "socials": [
+    { "label": "LinkedIn", "href": "#" },
+    { "label": "X / Twitter", "href": "#" },
+    { "label": "Instagram", "href": "#" }
+  ]
+}
