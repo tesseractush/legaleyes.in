@@ -173,11 +173,31 @@ function ContactPage() {
 
           <Reveal delay={150} className="lg:col-span-5">
             <div className="border border-border/60 bg-card/60 backdrop-blur p-8 space-y-6">
-              <h3 className="font-serif text-2xl text-foreground">Office</h3>
+              <h3 className="font-serif text-2xl text-foreground">Chambers</h3>
               <ul className="space-y-5 text-sm">
-                <li className="flex gap-4"><MapPin className="text-gold mt-0.5 shrink-0" size={18} /><span className="text-foreground/85 leading-relaxed">{site.contact.address}</span></li>
+                <li className="flex gap-4">
+                  <MapPin className="text-gold mt-0.5 shrink-0" size={18} />
+                  <a
+                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(site.contact.address)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground/85 leading-relaxed hover:text-gold"
+                  >
+                    {site.contact.address}
+                  </a>
+                </li>
                 <li className="flex gap-4"><Mail className="text-gold mt-0.5 shrink-0" size={18} /><a href={`mailto:${site.contact.email}`} className="text-foreground/85 hover:text-gold">{site.contact.email}</a></li>
-                <li className="flex gap-4"><Phone className="text-gold mt-0.5 shrink-0" size={18} /><a href={`tel:${site.contact.phone.replace(/\s/g, "")}`} className="text-foreground/85 hover:text-gold">{site.contact.phone}</a></li>
+                <li className="flex gap-4">
+                  <Phone className="text-gold mt-0.5 shrink-0" size={18} />
+                  <a
+                    href={`https://wa.me/${site.contact.whatsapp}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground/85 hover:text-gold"
+                  >
+                    {site.contact.phone}
+                  </a>
+                </li>
                 <li className="flex gap-4"><Clock className="text-gold mt-0.5 shrink-0" size={18} /><span className="text-foreground/85">{site.contact.hours}</span></li>
               </ul>
             </div>
@@ -192,12 +212,18 @@ function ContactPage() {
                 </defs>
                 <rect width="100%" height="100%" fill="url(#grid)" />
               </svg>
-              <div className="absolute inset-0 flex items-center justify-center">
+              <a
+                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(site.contact.address)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute inset-0 flex items-center justify-center group"
+              >
                 <div className="text-center">
-                  <MapPin className="text-gold mx-auto mb-3" size={28} />
-                  <div className="text-xs uppercase tracking-[0.25em] text-muted-foreground">Liberty Street · NY</div>
+                  <MapPin className="text-gold mx-auto mb-3 transition-transform group-hover:scale-110" size={28} />
+                  <div className="text-xs uppercase tracking-[0.25em] text-muted-foreground">Lucknow · Uttar Pradesh</div>
                 </div>
-              </div>
+              </a>
+            </div>
             </div>
           </Reveal>
         </div>
