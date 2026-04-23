@@ -48,6 +48,8 @@ export interface SiteContent {
     description: string;
     email: string;
     phone: string;
+    phoneRaw: string;
+    whatsapp: string;
     address: string;
     hours: string;
     caseTypes: string[];
