@@ -224,7 +224,6 @@ function ContactPage() {
                 </div>
               </a>
             </div>
-            </div>
           </Reveal>
         </div>
       </Section>
