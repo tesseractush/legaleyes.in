@@ -15,63 +15,83 @@
   "hero": {
     "eyebrow": "Established Counsel · Modern Practice",
     "headline": "Justice Through Insight",
-    "subtext": "Precision-driven legal solutions for modern challenges. We see what others miss — and we act before others react.",
+    "subtext": "Precision-driven legal representation across courts and tribunals. We see what others miss — and we act before others react.",
     "cta_primary": "Book Consultation",
     "cta_secondary": "Explore Services"
   },
   "about": {
-    "eyebrow": "The Firm",
+    "eyebrow": "The Chambers",
     "title": "Clarity in a complex world.",
-    "description": "Legal Eyes is a boutique firm built around a single principle: the sharpest counsel comes from the sharpest perspective. We pair rigorous analysis with discreet, deeply human advocacy for founders, executives, and institutions who can't afford to be misread.",
+    "description": "Legal Eyes is a full-service chambers built around a single principle: the sharpest counsel comes from the sharpest perspective. We pair rigorous legal research with discreet, deeply human advocacy before every forum — from trial courts to the Hon'ble High Court and specialised tribunals.",
     "pullQuote": "We don't simply argue cases. We architect outcomes.",
     "vision": "To redefine legal counsel as an act of clarity — replacing noise with insight, and reaction with strategy.",
     "founder": {
       "name": "A. Kohli",
-      "role": "Founding Partner",
-      "note": "Twenty years at the bench taught me one thing: every case is a question of perception. Our work begins where assumptions end."
+      "role": "Advocate-on-Record",
+      "note": "Two decades at the Bar taught me one thing: every matter is a question of perception. Our work begins where assumptions end."
     }
   },
   "services": [
     {
-      "title": "Corporate Law",
-      "description": "Mergers, governance, venture financing, and cross-border structuring for ambitious businesses.",
-      "icon": "Briefcase"
-    },
-    {
-      "title": "Litigation",
-      "description": "Strategic dispute resolution and trial advocacy across commercial, civil, and constitutional matters.",
+      "title": "Civil Litigation",
+      "description": "Suits for declaration, injunction, specific performance, partition, recovery and title disputes before all civil courts and the Hon'ble High Court.",
       "icon": "Scale"
     },
     {
-      "title": "Intellectual Property",
-      "description": "Trademark, patent, and copyright protection — from filing to enforcement and licensing.",
-      "icon": "Lightbulb"
-    },
-    {
-      "title": "Compliance & Regulatory",
-      "description": "Risk frameworks, regulatory filings, and audit readiness for regulated industries.",
+      "title": "Criminal Litigation",
+      "description": "Bail applications, anticipatory bail, FIR quashing under Section 482 CrPC, trial defence, and criminal appeals & revisions.",
       "icon": "ShieldCheck"
     },
     {
-      "title": "Legal Advisory",
-      "description": "Ongoing counsel for boards, founders, and family offices navigating high-stakes decisions.",
-      "icon": "Compass"
+      "title": "Family & Matrimonial",
+      "description": "Divorce, judicial separation, maintenance under Section 125 CrPC, child custody, guardianship, domestic violence and succession matters.",
+      "icon": "Users"
+    },
+    {
+      "title": "Consumer Disputes",
+      "description": "Representation before District, State and National Consumer Disputes Redressal Commissions for deficiency in service and unfair trade practices.",
+      "icon": "Gavel"
+    },
+    {
+      "title": "DRT & Banking",
+      "description": "Proceedings before the Debts Recovery Tribunal (DRT) and DRAT, SARFAESI Act matters, and securitisation appeals.",
+      "icon": "Landmark"
+    },
+    {
+      "title": "Commercial Disputes",
+      "description": "Suits under the Commercial Courts Act, arbitration under the Arbitration & Conciliation Act, 1996, and enforcement of awards.",
+      "icon": "Briefcase"
+    },
+    {
+      "title": "Corporate & NCLT",
+      "description": "Company petitions before the National Company Law Tribunal (NCLT), IBC proceedings, oppression & mismanagement, and corporate advisory.",
+      "icon": "Building2"
+    },
+    {
+      "title": "Service & Tribunal Matters",
+      "description": "Service disputes before CAT, departmental enquiries, writ petitions under Articles 226 & 227, and matters before specialised tribunals.",
+      "icon": "FileText"
+    },
+    {
+      "title": "Property & Revenue",
+      "description": "Title verification, conveyancing, RERA complaints, land acquisition, and revenue matters before the Board of Revenue.",
+      "icon": "Home"
     }
   ],
   "whyUs": {
     "title": "Why discerning clients choose us.",
-    "description": "Three decades of combined experience, distilled into a quiet, decisive practice.",
+    "description": "Two decades of courtroom experience, distilled into a quiet, decisive practice across every forum.",
     "metrics": [
-      { "value": 320, "suffix": "+", "label": "Cases handled" },
-      { "value": 96, "suffix": "%", "label": "Success rate" },
-      { "value": 24, "suffix": "yrs", "label": "Avg. partner experience" },
-      { "value": 14, "suffix": "", "label": "Jurisdictions covered" }
+      { "value": 850, "suffix": "+", "label": "Matters handled" },
+      { "value": 92, "suffix": "%", "label": "Favourable outcomes" },
+      { "value": 20, "suffix": "yrs", "label": "Bar experience" },
+      { "value": 12, "suffix": "+", "label": "Forums of practice" }
     ],
     "pillars": [
-      { "title": "Data-driven strategy", "description": "Every recommendation is backed by precedent analytics and outcome modeling." },
-      { "title": "Senior-led teams", "description": "Partners stay on the file, from intake to verdict." },
-      { "title": "Discreet & ethical", "description": "Confidentiality is the floor, not the ceiling, of how we operate." },
-      { "title": "Global reach", "description": "Trusted correspondents across 14 jurisdictions on four continents." }
+      { "title": "Forum-tested strategy", "description": "Every recommendation is informed by precedent and procedural mastery across courts and tribunals." },
+      { "title": "Senior-led representation", "description": "The Advocate-on-Record stays on the brief, from drafting to final arguments." },
+      { "title": "Discreet & ethical", "description": "Confidentiality and professional ethics under the Advocates Act are the floor, not the ceiling, of how we operate." },
+      { "title": "Pan-forum reach", "description": "Active practice before civil, criminal, consumer, family, DRT, NCLT, CAT and the Hon'ble High Court." }
     ]
   },
   "insights": {
@@ -79,73 +99,86 @@
     "description": "Long-form thinking on law, regulation, and the art of strategic counsel.",
     "posts": [
       {
-        "category": "Corporate",
-        "title": "The quiet revolution in cross-border M&A",
-        "excerpt": "Why the next wave of mid-market deals will be won on diligence, not deal size.",
+        "category": "Criminal",
+        "title": "Anticipatory bail after Sushila Aggarwal — the new contours",
+        "excerpt": "How the Constitution Bench reshaped Section 438 CrPC and what it means for accused persons today.",
         "readTime": "7 min read",
         "date": "Mar 2025"
       },
       {
-        "category": "IP",
-        "title": "Trademark in the age of generative design",
-        "excerpt": "When a logo is sketched by an algorithm, who owns the mark — and the goodwill?",
+        "category": "Commercial",
+        "title": "Section 9 vs Section 17: choosing your interim forum",
+        "excerpt": "When to approach the Court and when to invoke the Arbitral Tribunal for urgent interim reliefs.",
         "readTime": "5 min read",
         "date": "Feb 2025"
       },
       {
-        "category": "Litigation",
-        "title": "Settlements as strategy, not surrender",
-        "excerpt": "A framework for evaluating when a quiet exit beats a public victory.",
+        "category": "Consumer",
+        "title": "Pecuniary jurisdiction after the 2019 Act",
+        "excerpt": "A practitioner's note on choosing between District, State and National Commissions.",
         "readTime": "9 min read",
         "date": "Jan 2025"
       },
       {
-        "category": "Compliance",
-        "title": "Building a regulator-ready board",
-        "excerpt": "Five board hygiene practices that separate resilient companies from cautionary tales.",
+        "category": "DRT",
+        "title": "SARFAESI possession: the borrower's playbook",
+        "excerpt": "Procedural safeguards under Section 13(4) and the route to the Debts Recovery Tribunal.",
         "readTime": "6 min read",
         "date": "Dec 2024"
       },
       {
-        "category": "Advisory",
-        "title": "The founder's first ten legal decisions",
-        "excerpt": "What we tell every founder before they raise their first institutional round.",
+        "category": "Family",
+        "title": "Maintenance pendente lite — quantum & enforcement",
+        "excerpt": "Reading Rajnesh v. Neha into everyday matrimonial practice.",
         "readTime": "8 min read",
         "date": "Nov 2024"
       },
       {
-        "category": "Regulatory",
-        "title": "Reading the new data residency rules",
-        "excerpt": "A pragmatic guide to compliance without re-architecting your stack.",
+        "category": "Civil",
+        "title": "Order VII Rule 11 — the early exit door",
+        "excerpt": "Strategic rejection of plaints and how appellate courts are reading the rule today.",
         "readTime": "10 min read",
         "date": "Oct 2024"
       }
     ]
   },
   "team": {
-    "title": "Counsel you'll recognize.",
-    "description": "A small bench of senior practitioners — chosen for judgment, not headcount.",
+    "title": "Counsel you'll recognise.",
+    "description": "A small bench of seasoned practitioners — chosen for judgment, not headcount.",
     "members": [
-      { "name": "Anaya Kohli", "role": "Founding Partner", "expertise": ["Corporate", "M&A"], "initials": "AK" },
-      { "name": "Rohan Mehta", "role": "Partner, Litigation", "expertise": ["Commercial", "Constitutional"], "initials": "RM" },
-      { "name": "Iris Chen", "role": "Partner, IP", "expertise": ["Patents", "Licensing"], "initials": "IC" },
-      { "name": "Marcus Adair", "role": "Senior Counsel", "expertise": ["Compliance", "Regulatory"], "initials": "MA" },
-      { "name": "Selene Vance", "role": "Counsel, Advisory", "expertise": ["Boards", "Family Office"], "initials": "SV" },
-      { "name": "Jonas Park", "role": "Associate", "expertise": ["Cross-border", "Tax"], "initials": "JP" }
+      { "name": "Anaya Kohli", "role": "Advocate-on-Record", "expertise": ["Civil", "Commercial"], "initials": "AK" },
+      { "name": "Rohan Mehta", "role": "Senior Advocate, Criminal Side", "expertise": ["Criminal", "Constitutional"], "initials": "RM" },
+      { "name": "Iris Chen", "role": "Counsel, Commercial & Arbitration", "expertise": ["Arbitration", "Contracts"], "initials": "IC" },
+      { "name": "Marcus Adair", "role": "Counsel, DRT & Banking", "expertise": ["DRT", "SARFAESI"], "initials": "MA" },
+      { "name": "Selene Vance", "role": "Counsel, Family Side", "expertise": ["Matrimonial", "Custody"], "initials": "SV" },
+      { "name": "Jonas Park", "role": "Associate Advocate", "expertise": ["Consumer", "Service"], "initials": "JP" }
     ]
   },
   "contact": {
     "title": "Begin a conversation.",
-    "description": "Tell us about your matter. A partner will respond within one business day.",
+    "description": "Tell us about your matter. Counsel will respond within one working day.",
     "email": "contact@legaleyes.law",
-    "phone": "+1 (212) 555-0144",
-    "address": "48 Liberty Street, 22nd Floor, New York, NY 10005",
-    "hours": "Mon–Fri · 9:00–18:00",
-    "caseTypes": ["Corporate", "Litigation", "Intellectual Property", "Compliance", "Advisory", "Other"]
+    "phone": "+91 96960 77876",
+    "phoneRaw": "919696077876",
+    "whatsapp": "919696077876",
+    "address": "Lucknow, Uttar Pradesh, India",
+    "hours": "Mon–Sat · 10:00–19:00",
+    "caseTypes": [
+      "Civil Litigation",
+      "Criminal Matter",
+      "Family & Matrimonial",
+      "Consumer Dispute",
+      "DRT / SARFAESI",
+      "Commercial / Arbitration",
+      "Corporate / NCLT",
+      "Service / Tribunal",
+      "Property / RERA",
+      "Other"
+    ]
   },
   "socials": [
     { "label": "LinkedIn", "href": "#" },
-    { "label": "X / Twitter", "href": "#" },
+    { "label": "WhatsApp", "href": "https://wa.me/919696077876" },
     { "label": "Instagram", "href": "#" }
   ]
 }
