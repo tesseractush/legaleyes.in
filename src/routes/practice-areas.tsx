@@ -1,12 +1,12 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Briefcase, Scale, Lightbulb, ShieldCheck, Compass, ArrowRight } from "lucide-react";
+import { Briefcase, Scale, Lightbulb, ShieldCheck, Compass, ArrowRight, Users, Gavel, Landmark, Building2, FileText, Home } from "lucide-react";
 import site from "@/content/site.json";
 import { SiteLayout } from "@/components/SiteLayout";
 import { Section } from "@/components/Section";
 import { Reveal } from "@/components/Reveal";
 import { Button } from "@/components/ui/button";
 
-const iconMap = { Briefcase, Scale, Lightbulb, ShieldCheck, Compass } as const;
+const iconMap = { Briefcase, Scale, Lightbulb, ShieldCheck, Compass, Users, Gavel, Landmark, Building2, FileText, Home } as const;
 
 export const Route = createFileRoute("/practice-areas")({
   head: () => ({

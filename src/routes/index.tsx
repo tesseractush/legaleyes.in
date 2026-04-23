@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, ArrowDown, Briefcase, Scale, Lightbulb, ShieldCheck, Compass } from "lucide-react";
+import { ArrowRight, ArrowDown, Briefcase, Scale, Lightbulb, ShieldCheck, Compass, Users, Gavel, Landmark, Building2, FileText, Home } from "lucide-react";
 import site from "@/content/site.json";
 import { SiteLayout } from "@/components/SiteLayout";
 import { Section } from "@/components/Section";
@@ -8,7 +8,7 @@ import { Reveal } from "@/components/Reveal";
 import { MetricCounter } from "@/components/MetricCounter";
 import { Button } from "@/components/ui/button";
 
-const iconMap = { Briefcase, Scale, Lightbulb, ShieldCheck, Compass } as const;
+const iconMap = { Briefcase, Scale, Lightbulb, ShieldCheck, Compass, Users, Gavel, Landmark, Building2, FileText, Home } as const;
 
 export const Route = createFileRoute("/")({
   head: () => ({
