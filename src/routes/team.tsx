@@ -20,7 +20,7 @@ function TeamPage() {
   return (
     <SiteLayout>
       <Section eyebrow="The Bench" title={site.team.title} description={site.team.description} className="pt-40">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-border/60">
+        <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-px bg-border/60">
           {site.team.members.map((m, i) => (
             <Reveal key={m.name} delay={i * 70}>
               <article className="group relative bg-background overflow-hidden">
