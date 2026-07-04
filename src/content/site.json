@@ -26,9 +26,9 @@
     "pullQuote": "We don't simply argue cases. We architect outcomes.",
     "vision": "To redefine legal counsel as an act of clarity — replacing noise with insight, and reaction with strategy.",
     "founder": {
-      "name": "A. Kohli",
+      "name": "Adv Ayush Gupta",
       "role": "Advocate-on-Record",
-      "note": "Two decades at the Bar taught me one thing: every matter is a question of perception. Our work begins where assumptions end."
+      "note": "Two years at the Lucknow HC Bench taught me one thing: every matter is a question of perception. Our work begins where assumptions end."
     }
   },
   "services": [
@@ -146,21 +146,16 @@
     "title": "Counsel you'll recognise.",
     "description": "A small bench of seasoned practitioners — chosen for judgment, not headcount.",
     "members": [
-      { "name": "Anaya Kohli", "role": "Advocate-on-Record", "expertise": ["Civil", "Commercial"], "initials": "AK" },
-      { "name": "Rohan Mehta", "role": "Senior Advocate, Criminal Side", "expertise": ["Criminal", "Constitutional"], "initials": "RM" },
-      { "name": "Iris Chen", "role": "Counsel, Commercial & Arbitration", "expertise": ["Arbitration", "Contracts"], "initials": "IC" },
-      { "name": "Marcus Adair", "role": "Counsel, DRT & Banking", "expertise": ["DRT", "SARFAESI"], "initials": "MA" },
-      { "name": "Selene Vance", "role": "Counsel, Family Side", "expertise": ["Matrimonial", "Custody"], "initials": "SV" },
-      { "name": "Jonas Park", "role": "Associate Advocate", "expertise": ["Consumer", "Service"], "initials": "JP" }
+      { "name": "Adv. Ayush Gupta", "role": "Advocate-on-Record", "expertise": ["Civil", "Commercial"], "initials": "AG" }
     ]
   },
   "contact": {
     "title": "Begin a conversation.",
     "description": "Tell us about your matter. Counsel will respond within one working day.",
     "email": "contact@legaleyes.law",
-    "phone": "+91 96960 77876",
-    "phoneRaw": "919696077876",
-    "whatsapp": "919696077876",
+    "phone": "+91 9648629351",
+    "phoneRaw": "919648629351",
+    "whatsapp": "919648629351",
     "address": "Lucknow, Uttar Pradesh, India",
     "hours": "Mon–Sat · 10:00–19:00",
     "caseTypes": [
@@ -178,7 +173,7 @@
   },
   "socials": [
     { "label": "LinkedIn", "href": "#" },
-    { "label": "WhatsApp", "href": "https://wa.me/919696077876" },
+    { "label": "WhatsApp", "href": "https://wa.me/919648629351" },
     { "label": "Instagram", "href": "#" }
   ]
 }
