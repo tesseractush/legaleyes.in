@@ -44,7 +44,7 @@ function AboutPage() {
               <div className="absolute inset-0 bg-gradient-to-br from-gold/8 via-transparent to-bronze/12" />
               <div className="absolute inset-0">
   <img
-    src="https://raw.githubusercontent.com/tesseractush/legaleyes.in/src/routes/ayush-gupta.jpg?raw=true"
+    src="https://github.com/tesseractush/legaleyes.in/blob/ba0023c4cad148cb62764c36dd097a36b27c00c8/src/routes/ayush-gupta.jpg"
     alt="Adv Ayush Gupta"
     className="h-full w-full object-cover object-top"
   />
