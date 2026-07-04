@@ -113,9 +113,25 @@ function AboutTeaser() {
         <Reveal delay={150} className="md:col-span-5">
           <div className="aspect-[4/5] relative bg-card border border-border/60 overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-gold/5 via-transparent to-bronze/10" />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <Logo size={180} animated={false} />
-            </div>
+            <div className="absolute inset-0">
+  <img
+    src="https://github.com/tesseractush/legaleyes.in/blob/ba0023c4cad148cb62764c36dd097a36b27c00c8/src/routes/ayush-gupta.jpg?raw=true"
+    alt="Adv Ayush Gupta"
+    className="h-full w-full object-cover object-top"
+  />
+
+  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+
+  <div className="absolute bottom-8 left-8">
+    <div className="text-xs uppercase tracking-[0.25em] text-gold">
+      {site.about.founder.role}
+    </div>
+
+    <div className="mt-2 font-serif text-3xl text-white">
+      {site.about.founder.name}
+    </div>
+  </div>
+</div>
             <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-background to-transparent">
               <div className="text-xs uppercase tracking-[0.2em] text-gold">{site.about.founder.role}</div>
               <div className="font-serif text-xl mt-1">{site.about.founder.name}</div>
