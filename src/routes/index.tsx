@@ -133,8 +133,7 @@ function AboutTeaser() {
   </div>
 </div>
             <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-background to-transparent">
-              <div className="text-xs uppercase tracking-[0.2em] text-gold">{site.about.founder.role}</div>
-              <div className="font-serif text-xl mt-1">{site.about.founder.name}</div>
+              
             </div>
           </div>
         </Reveal>
