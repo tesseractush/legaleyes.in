@@ -42,9 +42,25 @@ function AboutPage() {
           <Reveal delay={150} className="md:col-span-5 md:sticky md:top-32">
             <div className="aspect-[4/5] relative bg-card border border-border/60 overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-gold/8 via-transparent to-bronze/12" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <Logo size={200} animated={false} />
-              </div>
+              <div className="absolute inset-0">
+  <img
+    src="/ayush-gupta.jpg"
+    alt="Adv Ayush Gupta"
+    className="h-full w-full object-cover object-top"
+  />
+
+  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+
+  <div className="absolute bottom-8 left-8">
+    <div className="text-xs uppercase tracking-[0.25em] text-gold">
+      {site.about.founder.role}
+    </div>
+
+    <div className="mt-2 font-serif text-3xl text-white">
+      {site.about.founder.name}
+    </div>
+  </div>
+</div>
             </div>
             <div className="mt-8 border-t border-border/60 pt-6">
               <div className="text-xs uppercase tracking-[0.25em] text-gold mb-2">A note from the founder</div>
