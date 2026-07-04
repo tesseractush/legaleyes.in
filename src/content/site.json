@@ -9,7 +9,6 @@
     { "label": "About", "to": "/about" },
     { "label": "Practice", "to": "/practice-areas" },
     { "label": "Insights", "to": "/insights" },
-    { "label": "Team", "to": "/team" },
     { "label": "Contact", "to": "/contact" }
   ],
   "hero": {
